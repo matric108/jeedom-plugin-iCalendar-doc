@@ -1,0 +1,57 @@
+﻿---- v1.1.00 (18/10/2016) : 
+- adaptation: mise à niveau compatibilité jeedom : gestion des paramètres d'affichage de la tuile 
+- adaptation: mise à niveau compatibilité jeedom : onglet sur le paramétrage des équipements et suppression bootstrap swtich)
+- évolution: autoriser le redimensionnement automatique de la tuile au cas où les événements dépassent la hauteur de la tuile
+- évolution: passage en 3.0.1 pour la librairie du calendier (panel)
+- correction: affichage du calendrier sur le mobile
+- correction: problème de d'indicateur de fin d'événement "FA" (cf. correction "rafdulaf")
+
+
+---- v1.0.05 (xx/03/2016) : 
+- correction: modification d'un événement au sein d'un événement récurent
+- correction: lancement des actions par l'événement
+- correction: gestion des téléchargement de fichier via https
+- correction: dernière journée d'un événement récurent non visible 
+- adaptation: options "autoriser action/scénario" redescendu au niveau de la commande
+- adaptation: corrections liées à la v2 (nodejs, table cache)
+- refonte: gestion des actions (géré par l'heure, et non plus par les DA/FA; évite les pertes d'événement sur les config lentes (mini))
+- refonte: de la page de configuration des commandes
+- évolution: lecture des agendas "CalDav" (avec cache sur la période de synchro)
+- évolution: ajout d'un panel, permettant l'affichage du calendrier et le suivi des actions
+- évolution: gestion d'un mode "rattrapage" pour les actions des événements non traitées à l'heure dite
+- évolution: affichage d'une information dans message lorsqu'une action est réalisée
+- évolution: affichage du lieu de l'événement
+- évolution: permet d'activer/desactiver un scénario ou action par l'action sur événement
+- évolution: affichage des agendas en ligne sur le dashbord
+- suppression: arrêt de la gestion des anciennes trames (via le titre)
+
+---- v0.1.03 (30/12/2015) : 
+- correction : gestion du bouton "ajouté" (régression lors de la création d'un nouvel équipement) ;
+- correction : journée sur l'année suivante vue comme "passée" ;
+
+---- v0.1.02 (29/12/2015) : 
+- correction : gestion du rafraîchissement du widget en cas de changement de nom de l'agenda ;
+- évolution : ajout du bouton dupliqué au niveau de l'équipement ;
+- évolution : ajout d'une commande "fonction" permettant de remonter des informations sur un événement donné au sein des scénarios (cf. doc).
+
+---- v0.1.01 (25/12/2015) : 
+- correction : gestion des jours récurrents où 1 jour est supprimé (exclusion) ; 
+- correction : gestion des journées complètes (minuit-minuit) ; 
+- correction : de l'affichage de l'information sur la suppression des trame action dans le titre ; 
+- correction : sur la récupération du titre de l'agenda dans le fichier ics ; 
+- correction : gestion des urls en "webcals", remplacée par des "http" ;
+- correction//évolution : ajout d'une option (titre uniquement) pour gérer la trame "simple" dans la commande ; (très attendu, car format abandonné en 0.1.00 et bcq de personnes l'utilisaient encore). 
+- évolution : gestion de l'agenda sur 1 semaine : 1 commande par jour. (plusieurs options disponibles : jour courant, j+1, J+2 ou 1 semaine). 
+- évolution : gestion 3 options graphiques au niveau de la tuile de l'équipement (cf. doc)
+
+---- v0.1.00 (9/12/2015) : 
+- correction: gestion du timezone
+- correction: erreur DEND non définie
+- évolution: widget dashboard et mobile
+- évolution: changement de la gestion des événements "action" par le champs description, à la place de titre 
+- évolution: lancement automatique d'actions en début et fin d'événement (en plus des scénarios)
+- documentation: création de la doc
+
+---- v0.0.2 (16/11/2015) : 
+- correction: gestion de la class commune avec le plugin "Info du jours"
+- correction: gestion de la suppression des fichiers cache du répertoire temporaire lors de la désinstallion du plugin (si le répertoire n'est pas vide)
