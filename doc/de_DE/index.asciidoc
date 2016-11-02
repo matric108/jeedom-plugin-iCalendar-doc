@@ -1,7 +1,7 @@
 :icons:
 = iCalendar
 
-== Description
+== Beschreibung
 Ce plugin iCalendar vous permet de récupérer les événements d'un agenda gérant le format de fichier iCalendar, dans un fichier .ics : 
 	
 	* soit en téléchargement d'un fichier ics (google, zimbra, outlook, ...)
@@ -13,23 +13,23 @@ L’utilisateur dispose de 3 modes de fonctionnement :
 	* définir au niveau des l'événement des "scénario" ou "action" qui pourront être automatiquement lancé par jeedom, soit en début ou en fin d'événement.
 	* reconnaissance d'une "interaction" sur le contenu du titre ; après à vous de définir les actions produites par l'intéraction.
 
-== Configuration
+== Konfiguration
 include::configuration.asciidoc[]
 
 == FAQ
 include::faq.asciidoc[]
 
 
-== Troubleshoting
+== Fehlersuche
 include::troubleshoting.asciidoc[]
 
 
-== Roadmap
+== Fahrplan
 - modification d'événement via jeedom (sans synchro avec le serveur distant dans le mode téléchargement ics) ; +
 - gestion des événements + Todo (modif, création, supression) pour le mode CalDav ; +
 - définir un offset à l'événement sur heure de début ou de fin ; +
 - mise en place de la synchro via un daemon ; +
 
 
-== Version documentaire 
+== Versions Dokumentation 
 _Mise à jour le : 27 février 2016_ +
