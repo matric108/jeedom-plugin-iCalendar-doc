@@ -1,0 +1,39 @@
+{
+    "plugins\/iCalendar\/core\/class\/iCalendar.class.php": {
+        "Aucun": "Aucun",
+        "Données mise à jour, envoi de l'évènement...": "Données mise à jour, envoi de l'évènement...",
+        "Scenario exécuté sur événement iCalendar": "Scenario exécuté sur événement iCalendar",
+        "Activation du scénario": "Activation du scénario",
+        "Début événement": "Début événement",
+        "lancement du scénario avec": "lancement du scénario avec",
+        "Scénario déclenchée": "Scénario déclenchée",
+        "Fin événement": "Fin événement",
+        "Mise à jour du fichier en cache": "Mise à jour du fichier en cache",
+        "Statut des actions historisés pour la journée du ": "Statut des actions historisés pour la journée du ",
+        "aujourd'hui": "aujourd'hui",
+        "collectée le": "collectée le",
+        "valeur du": "valeur du",
+        "affichage": "affichage",
+        "voir Agenda Google": "voir Agenda Google",
+        "Scénario": "Scénario",
+        "Action": "Action",
+        "Action\/Scénario désactivés": "Action\/Scénario désactivés",
+        "Action traitée à": "Action traitée à",
+        "Pour ne pas perturber l'affichage des données, la hauteur du widget ne peut pas être inférieure.": "Pour ne pas perturber l'affichage des données, la hauteur du widget ne peut pas être inférieure.",
+        "Pour ne pas perturber l'affichage des données, la largeur du widget ne peut pas être inférieure.": "Pour ne pas perturber l'affichage des données, la largeur du widget ne peut pas être inférieure.",
+        "évènement actif": "évènement actif",
+        "1ère minute": "1ère minute",
+        "dernière minute": "dernière minute",
+        "éditer le scénario": "éditer le scénario",
+        "Liste des actions\/scénarios": "Liste des actions\/scénarios",
+        "Active scénario": "Active scénario",
+        "Désactive scénario": "Désactive scénario",
+        "événements sur la journée": "événements sur la journée",
+        "Désactivation du scénario": "Désactivation du scénario",
+        "action demandée pour": "action demandée pour",
+        "Action déclenchée": "Action déclenchée"
+    },
+    "plugins\/iCalendar\/plugin_info\/info.xml": {
+        "Plugin pour lire les événements issus d'un agenda iCalendar (ics), dont les calendriers CalDav.": "Plugin pour lire les événements issus d'un agenda iCalendar (ics), dont les calendriers CalDav."
+    }
+}
