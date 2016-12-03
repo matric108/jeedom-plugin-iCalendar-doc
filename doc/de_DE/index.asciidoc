@@ -32,4 +32,4 @@ include::troubleshoting.asciidoc[]
 
 
 == Versions Dokumentation 
-_Mise à jour le : 27 février 2016_ +
+_Update : 27 Februar 2016_ +
