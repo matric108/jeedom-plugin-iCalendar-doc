@@ -4,7 +4,7 @@
 == Description
 Ce plugin iCalendar vous permet de récupérer les événements d'un agenda gérant le format de fichier iCalendar, dans un fichier .ics : 
 	
-	* soit en téléchargement d'un fichier ics (google, zimbra, outlook, ...)
+	* or download an ics file (google, zimbra, outlook,...)
 	* soit en Caldav (lecture seule pour l'instant avec cache locale sur la période de synchro)
 
 L’utilisateur dispose de 3 modes de fonctionnement :

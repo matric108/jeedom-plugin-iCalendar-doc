@@ -1,5 +1,5 @@
 [panel,primary]
-.Peut-on avoir les futurs évènements ?
+. Can we have given the future events ?
 --
 Avec les valeurs "événement heure à venir" et "événement sur la journée" du paramètre "format donnée" : oui d'un point de vue affichage sur le widget. +
 Par contre, le traitement de futurs évènements n'est pas possible (ils ne sont présents qu'en terme d'affichage), sauf si vous parcer les informations. 
