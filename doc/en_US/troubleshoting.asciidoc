@@ -1,5 +1,5 @@
 [panel,danger]
-.Mes scénarios réagissent à des évènements passées ou futurs (mode prochaine heure ou journée)
+. My scripts are reacting to past or future events (next hour or day mode)
 --
 Dans l'analyse de la trame, il faut vérifier que vous êtes sur un évènement actif; en vérifiant que [yellow-background]#;A;# est présent. _(exemple : "..."~";A;mon event")_.
 See the documentation for further explanation.
