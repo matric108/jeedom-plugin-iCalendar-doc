@@ -11,7 +11,7 @@ image:../images/iCalendar_install.PNG[]
 
 [cols="2,2,8", frame="topbot", options="header"]
 |=======================
-| Paramètre	| Type | Description
+| Parameter	| Typ | Beschreibung
 | TimeOut de syncrho | Zone de liste | Cette option vous permet de définir le temps que vous souhaité laissé au plugin pour récupérer les données issus du calendrier distant. +
 Théoriquement cette action est assez rapide, mais ce paramètre est disponible en cas de besoin. +
 Les valeurs possibles sont : 5 sec / 15 sec / 30 sec.
@@ -26,7 +26,7 @@ Les valeurs possibles sont : +
 
 
 ''''
-=== Description des paramètres de l'équipement
+=== Beschreibung der Geräteparameter
  
 Un bouton "dupliquer", permet de dupliquer l'équipement et les commandes associées. +
 
@@ -35,7 +35,7 @@ image:../images/iCalendar_config01.PNG[]
 	
 [cols="2,2,8", frame="topbot", options="header"]
 |=======================
-| Paramètre	| Type | Description
+| Parameter	| Typ | Beschreibung
 | Nom de l’équipement | Zone de texte | Nom donné à votre équipement agenda iCalendar, il s'affiche sur le widget. + 
 *Remarque :* +
 - il est possible de le masquer si vous cocher l'option "Ne pas afficher le nom" dans la configuration de la commande; + 
@@ -86,7 +86,7 @@ _(30 min, par défaut)_ | L'utilisateur peut configurer la période de rafraîch
 
 
 ''''
-=== Description des paramètres de la commande
+=== Beschreibung der Befehlsparameter
 
 Un bouton "Ajouter un Agenda", permet de créer un nouvel agenda avec ces propres paramètre de commandes (pour une meilleure lecture, l'affichage présente un tableau par agenda) +
 
@@ -100,7 +100,7 @@ image:../images/iCalendar_screenshot3.jpg[]
 
 [cols="2,2,8", frame="topbot", options="header"]
 |=======================
-| Paramètre	| Type | Description
+| Parameter	| Typ | Beschreibung
 3+|=== Nom et URL ===
 | Nom | Zone de texte | Permet de donner un nom au calendrier ; cette valeur s'affiche dans la zone de titre du calendier sur le widget. 
 | Nom ics | Zone de texte | Nom récupéré au niveau du fichier ICS ; valeur non modifiable. 
@@ -354,7 +354,7 @@ image:../images/iCalendar_screenshot4.jpg[]
 
 [cols="1,3", options="header", width="90%"]
 |=======================
-| Champs | Description
+| Feld | Beschreibung
 | Type d'action | Définie le type d'action à produire (commande action ou scénario), ici "Scénario"
 | 1ère minute : nom du scénario | Sélectionner le scénario à exécuter depuis l'évènement à la 1ère minute.
 | 1ère minute : nom de la variable | Sélectionner le nom de la variable à utiliser pour un traitement au niveau du scénario ; cette variable sera utilisée pour faire transiter les informations définies au moment de la 1ère minute. +
@@ -383,7 +383,7 @@ image:../images/iCalendar_screenshot5.jpg[]
 
 [cols="1,3", options="header", width="90%"]
 |=======================
-| Champs | Description
+| Feld | Beschreibung
 | Type d'action | Définie le type d'action à produire (commande action ou scénario), ici "Action"
 | Format de la commande | Définie si la valeur de l'ID est positionné ou le format de commande Jeedom (soit [obj][equip][cmd]). +
 *Remarque:* avec l'id, vous n'est pas dépendant du nom de la commande ou de l'équipement. Toute modification sur ce dernier n'aura pas d'impact sur le traitement/l'action de la commande. 
@@ -477,7 +477,7 @@ Si plusieurs titres correspondent, le 1er est retourné. +
 
 [cols="1,2,3", width="95%"]
 |=======================
-| fonction | description | arguments
+| Funktion | Beschreibung | Argumente
 | getTimeStart | donne l'heure de début de l'événement choisit | - en 1ère ligne : mettre le titre de l'événenement à rechercher, le texte doit être exacte ; +
 soit [yellow-background]#title=xxx#, exemple : title=Volet RDC +
 - en 2nde ligne, il est possible de préciser un format de retour pour la date ; comme dans tout le reste au niveau de jeedom, les possibilités de format sont équivalent à ceux de php. +
