@@ -2,7 +2,7 @@
 Vous pouvez l’utiliser pour l'affichage d'agenda tout simplement ou pour récupérer des agendas vous permettant de réaliser des actions dans votre installation Jeedom.
 
 ''''
-=== Installation et configuration du plugin
+=== Plugin Installation und Konfiguration
 
 Après téléchargement du plugin, vous devez l'activer pour profiter de ces fonctionnalité. +
 Des paramètres de configuration vous sont proposés, mais les valeurs par défaut peuvent être conservées. +
@@ -198,7 +198,7 @@ image:../images/iCalendar_caldav1.PNG[]
  +
 
 ''''
-=== Présentation du Widget
+=== Widget Präsentation
 
 Le widget se présente sous la forme suivante, si aucun style n'est appliqué :
 
