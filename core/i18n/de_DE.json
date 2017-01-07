@@ -23,14 +23,14 @@
         "Pour ne pas perturber l'affichage des données, la largeur du widget ne peut pas être inférieure.": "Pour ne pas perturber l'affichage des données, la largeur du widget ne peut pas être inférieure.",
         "évènement actif": "Ereignis aktiv",
         "1ère minute": "1. minute",
-        "dernière minute": "dernière minute",
+        "dernière minute": "Letzte Minute",
         "éditer le scénario": "Szenario bearbeiten",
         "Liste des actions\/scénarios": "Aktions\\/Szenarien Liste",
         "Active scénario": "Szenario aktiv",
         "Désactive scénario": "Szenario nicht aktiv",
         "événements sur la journée": "Ereignisse an dem Tag ",
         "Désactivation du scénario": "Szenario deaktivieren",
-        "action demandée pour": "action demandée pour",
+        "action demandée pour": "die angeforderte Aktion",
         "Action déclenchée": "Aktion ausgelöst"
     },
     "plugins\/iCalendar\/plugin_info\/info.xml": {
