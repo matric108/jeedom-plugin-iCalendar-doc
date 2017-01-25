@@ -37,7 +37,7 @@ image:../images/iCalendar_config01.PNG[]
 |=======================
 | Parameter	| Typ | Beschreibung
 | Nom de l’équipement | Zone de texte | Nom donné à votre équipement agenda iCalendar, il s'affiche sur le widget. + 
-*Remarque :* +
+*Hinweis :* +
 - il est possible de le masquer si vous cocher l'option "Ne pas afficher le nom" dans la configuration de la commande; + 
 - ce nom contient également un lien depuis le dashboard permettant de revenir directement à la configuration.
 | Objet parent 	| Liste de choix | Associe l'équipement agenda iCalendar à un objet (permettant de définir sa position sur le dashboard)
@@ -116,7 +116,7 @@ Permet de définir le mot de passe de l'utilisateur du serveur CalDav.
 Caldav offrant la possibilité d'avoir plusieurs agendas actif, vous pouvez spécifié ici le nom de l'agenda à récupérer. +
 Ce champs n'est pas obligatoire; s'il est non renseigné, le plugin prendra le 1er agenda retourné par le serveur Caldav ("personnal" généralement). +
 *Remarque:* un bouton d'aide vous permet de visualiser la liste des agendas disponibles et de copier le nom de l'agenda souhaité. 
-3+|=== Données d'utilisation ===
+3+|=== Nutzungsdaten ===
 | Format donnée | Zone de liste +
 _("événement sur la journée" par défaut)_ | Définit le "format" à afficher au niveau du widget et contenu dans la commande ; 3 valeurs sont disponibles (cf. Annexe 4) : +
 - `événement sur la journée` : affiche et traite tous les évènements de la journée (passés, en cours, à venir) ; +
@@ -148,7 +148,7 @@ _(décoché par défaut)_ | Cette option permet au plugin de lancer une recherch
 | Historiser les actions | Checkbox +
 _(décoché par défaut)_ | A chaque action/scénario/interaction lancé par le plugin, l'action produite est tracée (pour ne pas être relancé plus tard). +
 Cette option permet conserver ces actions traitées au delà de la journée courante. 
-3+|=== Option graphique ===
+3+|=== Grafische Option ===
 | Afficher calendrier | Checkbox + 
 _(coché par défaut)_ | Paramètre graphique ; permet de définir si le calendrier doit être affiché dans le widget. + 
 *Remarque :* ce paramètre n'est que graphique, il n'impacte pas les données (celles-ci continuent d'être traitées, même si l'option est désactivée). 
@@ -186,7 +186,7 @@ Un bouton "télécharger", vous permet de récupérer le fichier actuellement en
 
 [cols="2,2,8", frame="topbot", options="header"]
 |=======================
-3+|=== Options de sauvegarde ===
+3+|=== Sicherungsoptionen ===
 | Forcer la synchronisation | Checkbox + 
 _(décoché par défaut)_ | Permet de forcer la synchronisation du fichier cache en dehors des plages horaires.
 |=======================
@@ -223,7 +223,7 @@ En passant la sourie sur l'icône, il est possible de voir la date de traitement
 
 La 2nde image montre comment il est possible de personnaliser le widget en utilisant les class (cf. Annexe 6).
 
-==== Autres fonctionnalités :
+==== Andere Eigenschaften :
 
 * Le widget peut être redimensionné en largeur et hauteur ; du moment que les tailles souhaitées soient supérieures à l'espace minimum prévus pour l'affiage des données. 
 En cas de dimensionnement inférieur, un message d'erreur est affiché. 
@@ -268,7 +268,7 @@ En dessous de la date, vous pouvez supprimer les données historisées pour cett
 
 
 ''''
-=== Utilisation des données
+=== Nutzung von Daten
 
 * Par configuration d'un événement avec valeur des "scénario/action" dans la description de l'événement : +
 Les scénarios et les actions/commandes (si leur id est valide et actif) sont lancés automatiquement à l'heure souhaitée. 
@@ -453,7 +453,7 @@ Il existe 2 formats :
 *** date_update : correspond au timestamps update de l'événement ;
 *** location : correspond au lieu de l'événement s'il est définie dans votre agenda.
 
-*Remarque :*
+*Hinweis :*
 
 * le plugin sait gérer différents formats d'évènement : 
 ** heure au sein d'une journée (ex : 23/02 de 10h à 11h) ;

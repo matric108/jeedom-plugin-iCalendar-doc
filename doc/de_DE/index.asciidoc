@@ -7,7 +7,7 @@ Ce plugin iCalendar vous permet de récupérer les événements d'un agenda gér
 	* soit en téléchargement d'un fichier ics (google, zimbra, outlook, ...)
 	* soit en Caldav (lecture seule pour l'instant avec cache locale sur la période de synchro)
 
-L’utilisateur dispose de 3 modes de fonctionnement :
+Der Benutzer hat 3 Betriebsmodi :
 
 	* tester la présence de l’évènement et l’état de celui-ci via une condition dans un scénario (utilisation de l’opérateur ~ pour savoir si une chaîne de caractères en contient une autre).
 	* définir au niveau des l'événement des "scénario" ou "action" qui pourront être automatiquement lancé par jeedom, soit en début ou en fin d'événement.
