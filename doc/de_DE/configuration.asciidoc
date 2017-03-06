@@ -303,7 +303,7 @@ Soit un `\#[MA_CMD]#="Congé"` en "événement courant", équivaut à `\#[MA_CMD
 
 
 ''''
-=== Cron et Rafraîchissement de données
+=== Cron und Aktualisierungsrate
 
 *Récupération des données :* +
 Les données récupérées correspondent à une journée complète, mais sont récupérées en fonction du paramétrage défini (minimum 30 minutes); elles sont enregistrées en cache utilisé par le plugin. +
@@ -331,7 +331,7 @@ L'ordre de lecture de ces états est le suivant : le 1er de la liste correspond 
 Ces états sont renseignées à chaque synchro (soit à chaque période définie dans votre configuration de l'équipement, ou au moment de l'enregistrement de l'équipement si vous avez forcée la synchro).
 
 ''''
-=== Annexes
+=== Anhänge
 
 
 ==== _Annexe 1 : Aide à la saisie d'un évènement "Action" (scénario ou commande action) dans votre agenda_
@@ -434,7 +434,7 @@ Une fois connecté à l'agenda Google, vous pouvez récupérer l'*URL PRIVEE* de
 
 Lorsque la synchronisation est réalisée, le plugin va positionner au niveau de la commande agenda, les informations des événements de votre calendrier pour la journée courante. +
 
-Il existe 2 formats : 
+Es gibt zwei Formate : 
 
 * version "simple" (diponible pour "événement courant", avec titre uniquement à OUI) : 
 ** chaque évènement est séparé par des "||" ; 
@@ -444,7 +444,7 @@ Il existe 2 formats :
 
 ** chaque évènement est séparé par des "||" ; 
 ** les données au sein d'un évènement sont séparés par des ";" (point-virgule) ;
-** les données disponibles sont : 
+** Die verfügbaren Daten sind : 
 *** `heure_début;heure_fin;statut;titre de l'événement;uid;doAct/doInter;date_update;location`
 *** où heure_début, et heure_fin sont des bornes de l'événement pour la journée courante ; 
 *** statut : définie l'état de l'événement à l'instant T; pouvant prendre les valeurs : vide (à venir), DA (1ère minute), A (actif) ,FA (dernière minute), P (passé) ; 
@@ -541,7 +541,7 @@ image:../images/iCalendar_scenarioFonction.PNG[]
 
 
 ''''
-==== _Annexe 6 : Les classes CSS disponibles_
+==== _Anhang 6 : verfügbare CSS-Klassen_
 
 Vous pouvez utiliser 3 paramètres au niveau des options de la tuille de l'agenda pour gérer les couleurs : 
 [cols="1,2", width="70%"]
