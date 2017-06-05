@@ -11,3 +11,14 @@ Description :
 Pour ouvrir un cas de dysfonctionnement, reportez-vous au bouton "Issues" (https://github.com/abarrau/jeedom-plugin-iCalendar-doc/issues)
 
 > Lire en priorité, le texte : https://github.com/abarrau/jeedom-plugin-iCalendar-doc/issues/1
+
+
+# Documentation (FR uniquement) :
+
+
+# Change Log :
+
+
+# Forum de discussion (Jeedom) :
+
+https://www.jeedom.com/forum/viewtopic.php?f=138&t=12653
