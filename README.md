@@ -18,6 +18,7 @@ Pour ouvrir un cas de dysfonctionnement, reportez-vous au bouton "Issues" (https
 
 # Change Log :
 
+https://github.com/abarrau/jeedom-plugin-iCalendar-doc/blob/master/doc/_changelog.txt
 
 # Forum de discussion (Jeedom) :
 
