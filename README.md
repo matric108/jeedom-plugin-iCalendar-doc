@@ -15,6 +15,7 @@ Pour ouvrir un cas de dysfonctionnement, reportez-vous au bouton "Issues" (https
 
 # Documentation (FR uniquement) :
 
+https://github.com/abarrau/jeedom-plugin-iCalendar-doc/blob/master/doc/fr_FR/index.asciidoc
 
 # Change Log :
 
