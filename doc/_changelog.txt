@@ -1,11 +1,19 @@
-﻿---- v1.1.00 (18/10/2016) : 
+﻿---- v1.2.0 (xx/06/2017) : 
+- correction: sur la "santé" des requêtes pour les calendriers "caldav" (ano #2 de KiwiHC16)
+- adaptation: prise en compte des évolutions de jeedom (json)
+- évolution: page "santé", en plus des états, l'heure de l'action est disponible (en passant la souris dessus)
+- évolution: ajout de l'option d'affichage "multi date"
+- évolution: intégration de la class "olindote" 
+- évolution: séparer les log par calendrier (plus facile a débuguer en mode "debug")
+- mise à niveau de la documentation
+
+---- v1.1.00 (18/10/2016) : 
 - adaptation: mise à niveau compatibilité jeedom : gestion des paramètres d'affichage de la tuile 
 - adaptation: mise à niveau compatibilité jeedom : onglet sur le paramétrage des équipements et suppression bootstrap swtich)
 - évolution: autoriser le redimensionnement automatique de la tuile au cas où les événements dépassent la hauteur de la tuile
 - évolution: passage en 3.0.1 pour la librairie du calendier (panel)
 - correction: affichage du calendrier sur le mobile
 - correction: problème de d'indicateur de fin d'événement "FA" (cf. correction "rafdulaf")
-
 
 ---- v1.0.05 (xx/03/2016) : 
 - correction: modification d'un événement au sein d'un événement récurent

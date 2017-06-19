@@ -35,5 +35,27 @@
     },
     "plugins\/iCalendar\/plugin_info\/info.xml": {
         "Plugin pour lire les événements issus d'un agenda iCalendar (ics), dont les calendriers CalDav.": "Plugin pour lire les événements issus d'un agenda iCalendar (ics), dont les calendriers CalDav."
+    },
+    "plugins\/iCalendar\/plugin_info\/install.php": {
+        "Le répertoire vient d'être créé": "Le répertoire vient d'être créé"
+    },
+    "plugins\/iCalendar\/plugin_info\/configuration.php": {
+        "Timeout au niveau de la synchro pour la récupération du fichier ics.": "Timeout au niveau de la synchro pour la récupération du fichier ics.",
+        "Définie l'affichage par défaut, lors de l'ouverture de la page \"panel\" iCalendar.": "Définie l'affichage par défaut, lors de l'ouverture de la page \"panel\" iCalendar.",
+        "TimeOut de Synchro": "TimeOut de Synchro",
+        "Panel: vue par defaut": "Panel: vue par defaut",
+        "Calendrier: jour": "Calendrier: jour",
+        "Calendrier: 4 jours": "Calendrier: 4 jours",
+        "Calendrier: semaine": "Calendrier: semaine",
+        "Calendrier: mois": "Calendrier: mois",
+        "Actions: planning": "Actions: planning"
+    },
+    "plugins\/iCalendar\/3rdparty\/olindote_abarrau\/Tools\/olindoteTools.php": {
+        "Version du plugin": "Version du plugin",
+        "Installée": "Installée",
+        "installée le": "installée le",
+        "Remontée de dysfonctionnement": "Remontée de dysfonctionnement",
+        "Toutes remontés de cas de dysfonctionnement, clairement identifié (description claire et log à l'appui) peut être faite sur le site dédié au plugin": "Toutes remontés de cas de dysfonctionnement, clairement identifié (description claire et log à l'appui) peut être faite sur le site dédié au plugin",
+        "Cliquez sur l'icone \"Envoyer un rapport de bug\" (à coté de l'heure), à partir de la page du plugin.": "Cliquez sur l'icone \"Envoyer un rapport de bug\" (à coté de l'heure), à partir de la page du plugin."
     }
 }
