@@ -648,4 +648,4 @@ Voir la documentation pour plus d'explications.
 
 
 == Version documentaire 
-_Mise à jour le : 27 février 2016_ +
+_Mise à jour le : 19 juin 2017_ +
