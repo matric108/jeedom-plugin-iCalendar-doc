@@ -1,4 +1,16 @@
-﻿---- v1.2.0 (19/06/2017) : 
+﻿---- v1.3.0 (14/10/2017) : 
+- correction: sur la gestion des fichiers temporaires pour l'affichage du calendrier (ano de KiwiHC16)
+- correction: affichage en "double" d'un évènement récurrant déplacé
+- correction: gestion des fonctions complémentaires par le scénario
+- évolution: permettre aux fonctions complémentaires d'utiliser des J+x (et pas uniquement le J courant)
+- adaptation: toutes les variables de config passent avec un prefixe "olindote::"
+- adaptation: arrêt des messages d'erreur en cas de "resize" du Widget
+- adaptation: mise à niveau du javascript de la page équipement (suppresion des appels depuis le "$('body').")
+- adaptation: met à jour systématiquement le widget
+- mise à niveau: suppression des corrections dantant de plus d'1an (v0.1.00, v0.1.02, v1.0.01)
+- correction: correction orthographique de la documentation (merci noodom)
+
+---- v1.2.0 (19/06/2017) : 
 - correction: sur la "santé" des requêtes pour les calendriers "caldav" (ano #2 de KiwiHC16)
 - adaptation: prise en compte des évolutions de jeedom (json)
 - évolution: page "santé", en plus des états, l'heure de l'action est disponible (en passant la souris dessus)

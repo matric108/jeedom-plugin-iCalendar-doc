@@ -390,10 +390,10 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 <p>tester la présence de l’évènement et l’état de celui-ci via une condition dans un scénario (utilisation de l’opérateur "matches" pour savoir si une chaîne de caractères en contient une autre).</p>
 </li>
 <li>
-<p>définir au niveau des l'événement des "scénario" ou "action" qui pourront être automatiquement lancé par jeedom, soit en début ou en fin d'événement.</p>
+<p>définir au niveau de l'événement des "scénarios" ou "actions" qui pourront être automatiquement lancés par jeedom, soit en début ou en fin d'événement.</p>
 </li>
 <li>
-<p>reconnaissance d&#8217;une "interaction" sur le contenu du titre ; après à vous de définir les actions produites par l&#8217;intéraction.</p>
+<p>reconnaissance d&#8217;une "interaction" sur le contenu du titre ; après, à vous de définir les actions produites par l&#8217;interaction.</p>
 </li>
 </ul>
 </div>
@@ -410,7 +410,7 @@ Vous pouvez l’utiliser pour l&#8217;affichage d&#8217;agenda tout simplement o
 <div class="sect2">
 <h3 id="_installation_et_configuration_du_plugin">Installation et configuration du plugin</h3>
 <div class="paragraph">
-<p>Après téléchargement du plugin, vous devez l&#8217;activer pour profiter de ces fonctionnalité.<br>
+<p>Après téléchargement du plugin, vous devez l&#8217;activer pour profiter de ces fonctionnalités.<br>
 Des paramètres de configuration vous sont proposés, mais les valeurs par défaut peuvent être conservées.<br></p>
 </div>
 <div class="paragraph">
@@ -433,14 +433,14 @@ Des paramètres de configuration vous sont proposés, mais les valeurs par défa
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">TimeOut de syncrho</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Zone de liste</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Cette option vous permet de définir le temps que vous souhaité laissé au plugin pour récupérer les données issus du calendrier distant.<br>
-Théoriquement cette action est assez rapide, mais ce paramètre est disponible en cas de besoin.<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cette option vous permet de définir le temps que vous souhaitez laisser au plugin pour récupérer les données issues du calendrier distant.<br>
+Théoriquement, cette action est assez rapide, mais ce paramètre est disponible en cas de besoin.<br>
 Les valeurs possibles sont : 5 sec / 15 sec / 30 sec.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Pannel: vue par défaut</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Zone de liste</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Lorsque vous allez sur l'écran "panel", cette option précise la vue qui sera affiché par défaut pour l&#8217;utilisateur.<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Lorsque vous allez sur l'écran "panel", cette option précise la vue qui sera affichée par défaut pour l&#8217;utilisateur.<br>
 Les valeurs possibles sont :<br>
 - Calendrier: jours<br>
 - Calendrier: 4 jours<br>
@@ -457,14 +457,14 @@ Les valeurs possibles sont :<br>
 </table>
 
 <div class="paragraph">
-<p>Une fois l&#8217;activation réalisée, depuis la page des "équipements" vous pourrez ajouter de nouveau calendrier iCalendar.</p>
+<p>Une fois l&#8217;activation réalisée depuis la page des "équipements", vous pourrez ajouter de nouveaux calendriers iCalendar.</p>
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="../images/iCalendar_pageequipement.png" alt="iCalendar_pageequipement"></span></p>
 </div>
 <div class="paragraph">
-<p><strong>Remarque:</strong> Le bouton "Aide à la saisie d&#8217;actions au sein d&#8217;un événement" vous permet assister à la création du format à placer dans le champs description de votre événément.<br>
-Pour rappel, le lancement automatiques d&#8217;actions par le plugin n&#8217;est possible que si l&#8217;option activer les actions/scénarios est validée au niveau de votre commande agenda. (cf. Annexe 1 : "Aide à la saisie d&#8217;un évènement dans votre agenda").</p>
+<p><strong>Remarque:</strong> Le bouton "Aide à la saisie d&#8217;actions au sein d&#8217;un événement" vous permet d&#8217;assister à la création du format à placer dans le champ description de votre événément.<br>
+Pour rappel, le lancement automatique d&#8217;actions par le plugin n&#8217;est possible que si l&#8217;option "activer les actions/scénarios" est validée au niveau de votre commande agenda. (cf. Annexe 1 : "Aide à la saisie d&#8217;un évènement dans votre agenda").</p>
 </div>
 <hr>
 </div>
@@ -498,7 +498,7 @@ Pour rappel, le lancement automatiques d&#8217;actions par le plugin n&#8217;est
 <td class="tableblock halign-left valign-top"><p class="tableblock">Zone de texte</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Nom donné à votre équipement agenda iCalendar, il s&#8217;affiche sur le widget.<br>
 <strong>Remarque :</strong><br>
-- il est possible de le masquer si vous cocher l&#8217;option "Ne pas afficher le nom" dans la configuration de la commande;<br>
+- il est possible de le masquer si vous cochez l&#8217;option "Ne pas afficher le nom" dans la configuration de la commande;<br>
 - ce nom contient également un lien depuis le dashboard permettant de revenir directement à la configuration.</p></td>
 </tr>
 <tr>
@@ -511,20 +511,20 @@ Pour rappel, le lancement automatiques d&#8217;actions par le plugin n&#8217;est
 <td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox<br>
 <em>(décoché par défaut)</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Si coché, active l'équipement.<br>
-<strong>Remarque :</strong> Si l&#8217;option est décochée, l'équipement est désactivé et aucune requête ne sera demandée échangé avec votre agenda externe ; l'équipement est <em>"en attente"</em>.</p></td>
+<strong>Remarque :</strong> Si l&#8217;option est décochée, l'équipement est désactivé et aucune requête ne sera demandée, échangée avec votre agenda externe ; l'équipement est <em>"en attente"</em>.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Visible</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox<br>
 <em>(décoché par défaut)</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Si l&#8217;option est cochée, affiche l'équipement.<br>
-<strong>Remarque :</strong> Si l&#8217;option est décochée, l'équipement fonctionne normalement; les requêtes continues d'être envoyées vers votre agenda externe, mais il ne s&#8217;affiche pas sur votre dashboard.</p></td>
+<strong>Remarque :</strong> Si l&#8217;option est décochée, l'équipement fonctionne normalement; les requêtes continuent d'être envoyées vers votre agenda externe, mais il ne s&#8217;affiche pas sur votre dashboard.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Catégorie</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox<br>
 <em>(multichoix)</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Définie la catégorie à laquelle est rattaché l&#8217;agenda.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Définit la catégorie à laquelle est rattaché l&#8217;agenda.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" colspan="3"><p class="tableblock">=== Options de sauvegarde ===</p></td>
@@ -571,27 +571,27 @@ Pour rappel, le lancement automatiques d&#8217;actions par le plugin n&#8217;est
 <td class="tableblock halign-left valign-top"><p class="tableblock">Ne pas afficher la date</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox<br>
 <em>(décoché par défaut)</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Si l&#8217;option est cochée la date est masquée sur le widget; le texte "aujourd&#8217;hui : JJ MOIS AAAA (SW)" n&#8217;est pas affiché pour le Dashboard et les vues.<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Si l&#8217;option est cochée, la date est masquée sur le widget; le texte "aujourd&#8217;hui : JJ MOIS AAAA (SW)" n&#8217;est pas affiché pour le Dashboard et les vues.<br>
 Au niveau de la version mobile, le logo avec la date du jour n&#8217;est pas affiché.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">(multi journée) Format d&#8217;affichage</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Zone de liste</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Définie le format d&#8217;affichage des calendriers (si plusieurs journées sélectionnées).<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Définit le format d&#8217;affichage des calendriers (si plusieurs journées sélectionnées).<br>
 "1 journée avec jour de navigation": permet d&#8217;afficher la journée courante ; pour voir les évènements des autres journées, cliquez sur la date.<br>
-"tout affiché": permet d&#8217;afficher tous les évènements pour l&#8217;ensemble des jours sélectionnées.</p></td>
+"tout affiché": permet d&#8217;afficher tous les évènements pour l&#8217;ensemble des jours sélectionnés.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">(multi agenda) Format d&#8217;affichage</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Zone de liste</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Définie le format d&#8217;affichage des calendiers, soit en mode verticale (standard) ou en mode horizontale.<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Définit le format d&#8217;affichage des calendiers, soit en mode vertical (standard) ou en mode horizontal.<br>
 <strong>Remarque:</strong> Ne s&#8217;applique que pour la version Dashboard; la version mobile est toujours verticale.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Redessiner la tuille automatiquement</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Permet de redimensionner automatiquement la tuille au niveau du dashbord desktop ou mobile, si le nombre d'évènement change.<br>
-Cela évite que la liste sorte en dehors de la tuille.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Permet de redimensionner automatiquement la tuile au niveau du dashboard desktop ou mobile, si le nombre d'évènements change.<br>
+Cela évite que la liste sorte en dehors de la tuile.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" colspan="3"><p class="tableblock">=== Paramètres événements ===</p></td>
@@ -600,8 +600,8 @@ Cela évite que la liste sorte en dehors de la tuille.</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Ajouter Message sur "action"</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox<br>
 <em>(décoché par défaut)</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Cette option permet d&#8217;ajouter un message à la boite des messages jeedom, dans le cas où le plugin a déclenché une action, un scénario ou une intéraction.<br>
-<strong>Remarque :</strong> Pour cela, il faut avoir autoriser les actions/scénario ou interaction au niveau de votre commande agenda.<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cette option permet d&#8217;ajouter un message à la boîte des messages jeedom, dans le cas où le plugin a déclenché une action, un scénario ou une interaction.<br>
+<strong>Remarque :</strong> Pour cela, il faut avoir autorisé les actions/scénarios ou interactions au niveau de votre commande agenda.<br>
 Cette option ne fonctionne pas dans le cas d&#8217;une utilisation par déclenchement de scénario sur mise à jour de la commande.</p></td>
 </tr>
 <tr>
@@ -610,11 +610,11 @@ Cette option ne fonctionne pas dans le cas d&#8217;une utilisation par déclench
 <em>(décoché par défaut)</em><br>
 <br>
 Liste de choix</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">L&#8217;activation de cette option permet de pouvoir lancer des actions/scénario/intéraction, mais si l&#8217;heure exacte de l'événement est dépassé.<br>
-Le plugin dispose alors d&#8217;une fenêtre de temps pour déclencher ces actions, si elles n&#8217;ont pas été faite dans les temps.<br>
-<strong>Remarque:</strong> Ce paramètre est surtout utile au petite config (RPI1) qui pouvait par moment se retrouve en dehors de la minute de début ou de fin de l'événement et l&#8217;action ne se lançait pas.<br>
-<em>(exemple: événement débute à 8h30, hors à 30, il y a bcq de cron lancé. On pouvait constater que le cron minute était en fait traité à 31 ; l&#8217;instant T ne correspondant plus à l&#8217;heure de début de l'événement, les actions/sénarios associés étaient ignorées)</em><br>
-Cette option peut aussi être utile en cas de coupure de courant coute, vous pourrez rattraper des actions non exécutées.<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">L&#8217;activation de cette option permet de pouvoir lancer des actions/scénarios/interactions, mais si l&#8217;heure exacte de l'événement est dépassé.<br>
+Le plugin dispose alors d&#8217;une fenêtre de temps pour déclencher ces actions, si elles n&#8217;ont pas été faites dans les temps.<br>
+<strong>Remarque:</strong> Ce paramètre est surtout utile aux petites configs (RPI1) qui pouvaient par moment se retrouver en dehors de la minute de début ou de fin de l'événement et l&#8217;action ne se lançait pas.<br>
+<em>(exemple: événement débute à 8h30, hors à 30, il y a bcq de cron lancé. On pouvait constater que le cron minute était en fait traité à 31 ; l&#8217;instant T ne correspondant plus à l&#8217;heure de début de l'événement, les actions/scénarios associés étaient ignorés)</em><br>
+Cette option peut aussi être utile en cas de coupure de courant courte, vous pourrez rattraper des actions non exécutées.<br>
 <br>
 Les périodes disponibles sont :<br>
 - les 2 dernières minutes<br>
@@ -674,9 +674,9 @@ Les périodes disponibles sont :<br>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Type d&#8217;agenda</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Zone de liste</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Vous permet de définir le type d&#8217;agenda que vous configuré et la méthode de récupération de l&#8217;ICS. Les choix possibles sont :<br>
-- <code>récupération d'un fichier ics</code> : correspond au téléchargement d&#8217;un fichier issue d&#8217;un serveur tier ;<br>
-- <code>lecture d'un agenda CalDav</code> : permet de récuéprer le contenu d&#8217;un agenda CalDav et d&#8217;avoir un fichier ics local ;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vous permet de définir le type d&#8217;agenda que vous configurez et la méthode de récupération de l&#8217;ICS. Les choix possibles sont :<br>
+- <code>récupération d'un fichier ics</code> : correspond au téléchargement d&#8217;un fichier issu d&#8217;un serveur tiers ;<br>
+- <code>lecture d'un agenda CalDav</code> : permet de récupérer le contenu d&#8217;un agenda CalDav et d&#8217;avoir un fichier ics local ;</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">URL de l&#8217;agenda</p></td>
@@ -699,15 +699,15 @@ Permet de définir le mot de passe de l&#8217;utilisateur du serveur CalDav.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Nom agenda</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Zone de texte</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">(s&#8217;affiche uniquement en "caldav")<br>
-Caldav offrant la possibilité d&#8217;avoir plusieurs agendas actif, vous pouvez spécifié ici le nom de l&#8217;agenda à récupérer.<br>
-Ce champs n&#8217;est pas obligatoire; s&#8217;il est non renseigné, le plugin prendra le 1er agenda retourné par le serveur Caldav ("personnal" généralement).<br>
+Caldav offrant la possibilité d&#8217;avoir plusieurs agendas actifs, vous pouvez spécifier ici le nom de l&#8217;agenda à récupérer.<br>
+Ce champ n&#8217;est pas obligatoire; s&#8217;il est non renseigné, le plugin prendra le 1er agenda retourné par le serveur Caldav ("personnal" généralement).<br>
 <strong>Remarque:</strong> un bouton d&#8217;aide vous permet de visualiser la liste des agendas disponibles et de copier le nom de l&#8217;agenda souhaité.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" colspan="3"><p class="tableblock">=== Données d&#8217;utilisation ===</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Format donnée</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Format données</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Zone de liste<br>
 <em>("événement sur la journée" par défaut)</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Définit le "format" à afficher au niveau du widget et contenu dans la commande ; 3 valeurs sont disponibles (cf. Annexe 4) :<br>
@@ -719,7 +719,7 @@ Ce champs n&#8217;est pas obligatoire; s&#8217;il est non renseigné, le plugin 
 <td class="tableblock halign-left valign-top"><p class="tableblock">Titre uniquement</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox<br>
 <em>(décoché par défaut)</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Cette option n&#8217;est disponible que si "format de donnée" = " événement courant".<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cette option n&#8217;est disponible que si "format de données" = " événement courant".<br>
 Le contenu de la commande agenda est alors la plus simpliste possible, elle ne présente que les titres ; tous les paramètres annexes (id, état) à l'événement ne sont pas disponibles.<br>
 <strong>Remarque: Si vous utilisez cette option, l&#8217;option "Autoriser les scénarios/actions" sera INVALIDEE techniquement.</strong><br></p></td>
 </tr>
@@ -727,12 +727,12 @@ Le contenu de la commande agenda est alors la plus simpliste possible, elle ne p
 <td class="tableblock halign-left valign-top"><p class="tableblock">Période à traiter</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Zone de liste<br>
 <em>("jour courant" par défaut)</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Définit le nombre de jours à traier :<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Définit le nombre de jours à traiter :<br>
 - <code>jour courant</code> : gère les données de la journée courante au niveau de la commande "J0" ;<br>
 - <code>+ lendemain</code> : gère les données de la journée courante et celles du lendemain (J0+J1) ;<br>
 - <code>+ 2jours</code> : gère les données de la journée courante et celles des 2 jours suivants (J0+J1+J2) ;<br>
 - <code>1 semaine</code> : gère les données de la journée courante et celles des 6 jours suivants (J0 à J6) ;<br>
-<strong>Remarque:</strong> n&#8217;est disponible que si "format de donnée" = "événement sur la journée".<br>
+<strong>Remarque:</strong> n&#8217;est disponible que si "format de données" = "événement sur la journée".<br>
 Dans le cas où vous êtes dans une configuration supérieure à la journée courante, une icône orange apparait à coté du titre; en cliquant dessus, la liste des commandes associées aux autres journées apparait en dessous du tableau.</p></td>
 </tr>
 <tr>
@@ -746,14 +746,14 @@ Dans le cas où vous êtes dans une configuration supérieure à la journée cou
 <td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox<br>
 <em>(décoché par défaut)</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Permet de définir si les indicateurs de début/de fin d'évènement sont utilisés, aussi bien à l&#8217;affichage et aussi pour l&#8217;execution d&#8217;une action/scénario;<br>
-- Si coché : les indicateurs "Début" (<span class="yellow-background">;DA;</span>) et "Fin" (<span class="yellow-background">;FA;</span>) d&#8217;activité sont utilisés en complément de l&#8217;incidateur "Actif"<br>
+- Si coché : les indicateurs "Début" (<span class="yellow-background">;DA;</span>) et "Fin" (<span class="yellow-background">;FA;</span>) d&#8217;activité sont utilisés en complément de l&#8217;indicateur "Actif"<br>
 - Si décoché : seul l&#8217;indicateur d'état "Actif" est utilisé (<span class="yellow-background">;A;</span>).</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Autoriser les scénarios/Actions</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox<br>
 <em>(décoché par défaut)</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Cette option permet au plugin de lancer automatiquement les scénarios ou actions, si la description de l'événement respecte correctement le format attendue pour cette action (cf. Annexe 1 : "Aide à la saisie d&#8217;un évènement").</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cette option permet au plugin de lancer automatiquement les scénarios ou actions, si la description de l'événement respecte correctement le format attendu pour cette action (cf. Annexe 1 : "Aide à la saisie d&#8217;un évènement").</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Autoriser les interactions</p></td>
@@ -766,8 +766,8 @@ Dans le cas où vous êtes dans une configuration supérieure à la journée cou
 <td class="tableblock halign-left valign-top"><p class="tableblock">Historiser les actions</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox<br>
 <em>(décoché par défaut)</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">A chaque action/scénario/interaction lancé par le plugin, l&#8217;action produite est tracée (pour ne pas être relancé plus tard).<br>
-Cette option permet conserver ces actions traitées au delà de la journée courante.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A chaque action/scénario/interaction lancé par le plugin, l&#8217;action produite est tracée (pour ne pas être relancée plus tard).<br>
+Cette option permet de conserver ces actions traitées au delà de la journée courante.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Fréquence synchro</p></td>
@@ -804,7 +804,7 @@ Le paramètre n&#8217;est pas affiché si l&#8217;option "Afficher heure" est d�
 <td class="tableblock halign-left valign-top"><p class="tableblock">Afficher l&#8217;emplacement</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox<br>
 <em>(coché par défaut)</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Paramètre graphique ; permet d&#8217;affiché l&#8217;information de lieu disponible au niveau de l'événement.<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Paramètre graphique ; permet d&#8217;afficher l&#8217;information de lieu disponible au niveau de l'événement.<br>
 <strong>Remarque:</strong> Cette information n&#8217;est disponible qu'à l&#8217;affichage pour l&#8217;instant; vous pouvez aussi la récupérer au niveau d&#8217;un scénario via la fonction "getLocation".</p></td>
 </tr>
 <tr>
@@ -815,12 +815,12 @@ Le paramètre n&#8217;est pas affiché si l&#8217;option "Afficher heure" est d�
 - <code>+ lendemain</code> : affiche les données de la journée courante et celles du lendemain;<br>
 - <code>+ 2jours</code> : affiche les données de la journée courante et celles des 2 jours suivants;<br>
 - <code>1 semaine</code> : affiche les données de la journée courante et celles des 6 jours suivants;<br>
-<strong>Remarque:</strong> le nombre de jours proposé dépend de la valeur sélectionnée au niveau de l&#8217;option "Période à traiter".</p></td>
+<strong>Remarque:</strong> le nombre de jours proposés dépend de la valeur sélectionnée au niveau de l&#8217;option "Période à traiter".</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Ne pas afficher le nombre d'évènement</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ne pas afficher le nombre d'évènements</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Permet de masquer le nombre d'évènement affiché à coté du nom du calendrier.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Permet de masquer le nombre d'évènements affichés à côté du nom du calendrier.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" colspan="3"><p class="tableblock">=== Actions ===</p></td>
@@ -854,7 +854,7 @@ Le paramètre n&#8217;est pas affiché si l&#8217;option "Afficher heure" est d�
 <td class="tableblock halign-left valign-top"><p class="tableblock">Date du fichier</p></td>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">indique la date du dernier téléchargement et sauvegarde en cache du fichier ics.<br>
 <strong>Remarque:</strong> lors d&#8217;une synchronisation, le fichier peut ne pas être sauvegardé en cache, si les 2 fichiers sont identiques.<br>
-Un bouton "télécharger", vous permet de récupérer le fichier actuellement en cache pour une lecture local sur votre poste de travail.</p></td>
+Un bouton "télécharger", vous permet de récupérer le fichier actuellement en cache pour une lecture locale sur votre poste de travail.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Date synchro précédente</p></td>
@@ -896,7 +896,7 @@ Un bouton "télécharger", vous permet de récupérer le fichier actuellement en
 <div class="ulist">
 <ul>
 <li>
-<p>Le nombre d'événements est affiché à coté du titre du Calendrier ;</p>
+<p>Le nombre d'événements est affiché à côté du titre du Calendrier ;</p>
 <div class="ulist">
 <ul>
 <li>
@@ -930,14 +930,14 @@ En cliquant une seconde fois, ou sur une autre roue la fenêtre d&#8217;informat
 <p>en cliquant sur le nom du scénario ou de l&#8217;action, la page de configuration s&#8217;ouvre ;</p>
 </li>
 <li>
-<p>une icône verte apparait sur à coté de l&#8217;action/scénario pour indiqué qu&#8217;il a bien été exécuté ;<br>
-En passant la sourie sur l&#8217;icône, il est possible de voir la date de traitement.</p>
+<p>une icône verte apparait à côté de l&#8217;action/scénario pour indiquer qu&#8217;il a bien été exécuté ;<br>
+En passant la souris sur l&#8217;icône, il est possible de voir la date de traitement.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Une icône "bulle de BD" indique que l'événement peut déclencher une intéraction ;</p>
+<p>Une icône "bulle de BD" indique que l'événement peut déclencher une interaction ;</p>
 </li>
 </ul>
 </div>
@@ -952,11 +952,11 @@ En passant la sourie sur l&#8217;icône, il est possible de voir la date de trai
 <div class="ulist">
 <ul>
 <li>
-<p>Le widget peut être redimensionné en largeur et hauteur ; du moment que les tailles souhaitées soient supérieures à l&#8217;espace minimum prévus pour l&#8217;affiage des données.
+<p>Le widget peut être redimensionné en largeur et hauteur ; du moment que les tailles souhaitées soient supérieures à l&#8217;espace minimum prévu pour l&#8217;affichage des données.
 En cas de dimensionnement inférieur, un message d&#8217;erreur est affiché.</p>
 </li>
 <li>
-<p>Vous pouvez également ré-ordonner les agendas directement via le widget (maintenez la souris enfoncée sur la zone de titre de l&#8217;agenda, et déplacer vers le haut ou le bas).</p>
+<p>Vous pouvez également ré-ordonner les agendas directement via le widget (maintenez la souris enfoncée sur la zone de titre de l&#8217;agenda, et déplacez vers le haut ou le bas).</p>
 </li>
 </ul>
 </div>
@@ -977,11 +977,11 @@ En cas de dimensionnement inférieur, un message d&#8217;erreur est affiché.</p
 <div class="paragraph">
 <p>Après avoir sélectionné un agenda, vous pouvez cliquer sur le type d&#8217;affichage souhaité "Calendrier" (bouton en haut à gauche).<br>
 Vous pouvez alors parcourir votre agenda comme si vous étiez sur la version "distante" (Google, etc&#8230;).<br>
-La période d&#8217;affichage est toutefois restrainte ; elle respecte la plage suivante : les 3 mois précédents la date du jour et les 6 mois suivants.<br></p>
+La période d&#8217;affichage est toutefois restreinte ; elle respecte la plage suivante : les 3 mois précédant la date du jour et les 6 mois suivants.<br></p>
 </div>
 <div class="paragraph">
-<p><strong>Remarque:</strong> Cette période n&#8217;est pas paramétrage pour l&#8217;instant; elle est juste rappelée en haut à droite de l'écran.<br>
-Dans le cas de petite config, le temps d&#8217;affichage de cet écran peut être long la 1ère fois de la journée, un cache est ensuite utilisée tout au long de la journée.<br>
+<p><strong>Remarque:</strong> Cette période n&#8217;est pas paramétrable pour l&#8217;instant; elle est juste rappelée en haut à droite de l'écran.<br>
+Dans le cas de petites configs, le temps d&#8217;affichage de cet écran peut être long la 1ère fois de la journée, un cache est ensuite utilisée tout au long de la journée.<br>
 <br>
 En cliquant sur un événement, une fenêtre apparait, permettant d&#8217;avoir des détails complémentaires.<br></p>
 </div>
@@ -995,12 +995,12 @@ En cliquant sur un événement, une fenêtre apparait, permettant d&#8217;avoir 
 <p><span class="image"><img src="../images/iCalendar_screenshot9.jpg" alt="iCalendar_screenshot9"></span></p>
 </div>
 <div class="paragraph">
-<p>Si vous avez activer "Historiser les actions", vous pourrez retrouver dans cet écran les actions/scénarios/interactions où une tentative d&#8217;exécution a été traitée.<br>
+<p>Si vous avez activé "Historiser les actions", vous pourrez retrouver dans cet écran les actions/scénarios/interactions où une tentative d&#8217;exécution a été traitée.<br>
 En haut à droite, vous pouvez définir la période de visualisation ; par défaut, les derniers jours.<br>
 <br>
 La liste présente par jour, le nom du scénario ou de l&#8217;action traitée, avec son heure de traitement.<br>
 La dernière colonne permet d&#8217;avoir des informations sur l'événement associé / ayant demandé le lancement de cette action/scénario.<br>
-Dans le cas d&#8217;une intéraction, l&#8217;information affichée correspond à la "réponse" retournée par l&#8217;intéraction (mais en aucun cas son nom) ; si aucune réponse n&#8217;a été faite, il est indiqué "Non reconnu".<br>
+Dans le cas d&#8217;une interaction, l&#8217;information affichée correspond à la "réponse" retournée par l&#8217;interaction (mais en aucun cas son nom) ; si aucune réponse n&#8217;a été faite, il est indiqué "Non reconnu".<br>
 <br>
 En dessous de la date, vous pouvez supprimer les données historisées pour cette journée.</p>
 </div>
@@ -1054,15 +1054,15 @@ La recherche se fait en utilisant l&#8217;argument de comparaison "contient" ("m
 </table>
 
 <div class="paragraph">
-<p>En fonction de la version de Jeedom, l&#8217;utilisation des doubles côtes <code>"</code>, autours du nom de la commande peut être nécessaire ; à partir de la V2, le test doit être fait sans ces doubles côtes. <br></p>
+<p>En fonction de la version de Jeedom, l&#8217;utilisation des doubles côtes <code>"</code>, autour du nom de la commande peut être nécessaire ; à partir de la V2, le test doit être fait sans ces doubles côtes. <br></p>
 </div>
 <div class="paragraph">
 <p>L&#8217;utilisation de l'état n&#8217;a un intérêt que si le paramètre "Format donnée" utilisé est : "événement heure à venir" ou "événement sur la journée".</p>
 </div>
 <div class="paragraph">
 <p><strong>REMARQUE:</strong> Lorsque l&#8217;agenda ne traite qu&#8217;un seul événément, l&#8217;utilisation du format "événement courant" avec "titre uniquement" n&#8217;est pas la seule solution.
-Vous pouvez très bien utiliser également les formats "heure à venir" et "journée", en précisant le contenu exacte de l'événement.
-Soit un <code>\#[MA_CMD]#="Congé"</code> en "événement courant", équivaut à <code>\#[MA_CMD]# matches "/;A;Congé;/"</code> dans un autre format (respecter bien l&#8217;utilidation des <code>;</code>).</p>
+Vous pouvez très bien utiliser également les formats "heure à venir" et "journée", en précisant le contenu exact de l'événement.
+Soit un <code>\#[MA_CMD]#="Congé"</code> en "événement courant", équivaut à <code>\#[MA_CMD]# matches "/;A;Congé;/"</code> dans un autre format (respectez bien l&#8217;utilisation des <code>;</code>).</p>
 </div>
 <hr>
 </div>
@@ -1087,7 +1087,7 @@ Il est donc possible de configurer/programmer des évènements à la minute prè
 <h3 id="__sant_des_changes_r_seaux">"Santé" des échanges réseaux</h3>
 <div class="paragraph">
 <p>Afin de vous permettre d&#8217;avoir une vision sur la validité des synchronisation, une information est remontée au niveau de la page "Santé".<br>
-Dans la session "iCalendar", vous pouvez voir pour chacun de vos agendas, l'état des 15 dernières synchro réalisées:</p>
+Dans la session "iCalendar", vous pouvez voir pour chacun de vos agendas, l'état des 15 dernières synchros réalisées:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1104,7 +1104,7 @@ Dans la session "iCalendar", vous pouvez voir pour chacun de vos agendas, l'éta
 </div>
 <div class="paragraph">
 <p>L&#8217;ordre de lecture de ces états est le suivant : le 1er de la liste correspond au test de synchro le dernier en date ; la dernière information de la liste correspond à l'état le plus ancien connu.<br>
-Ces états sont renseignées à chaque synchro (soit à chaque période définie dans votre configuration de l'équipement, ou au moment de l&#8217;enregistrement de l'équipement si vous avez forcée la synchro).</p>
+Ces états sont renseignés à chaque synchro (soit à chaque période définie dans votre configuration de l'équipement, ou au moment de l&#8217;enregistrement de l'équipement si vous avez forcé la synchro).</p>
 </div>
 <hr>
 </div>
@@ -1114,7 +1114,7 @@ Ces états sont renseignées à chaque synchro (soit à chaque période définie
 <h4 id="__em_annexe_1_aide_la_saisie_d_un_v_nement_action_sc_nario_ou_commande_action_dans_votre_agenda_em"><em>Annexe 1 : Aide à la saisie d&#8217;un évènement "Action" (scénario ou commande action) dans votre agenda</em></h4>
 <div class="paragraph">
 <p>Ce paragraphe vous explique comment configurer un évènement agenda pour permettre de lancer automatiquement les scénarios ou des commandes actions.<br>
-Pour que le plugin reconnaisse que l'évènement est de type "Action", il doit se présenter sous une forme particulière au niveau du champs "description" de l'événement.<br></p>
+Pour que le plugin reconnaisse que l'évènement est de type "Action", il doit se présenter sous une forme particulière au niveau du champ "description" de l'événement.<br></p>
 </div>
 <div class="paragraph">
 <p><strong>-- Cas du format "Scénario"</strong> :<br>
@@ -1146,7 +1146,7 @@ Par contre, ne pas mettre de valeur de variable pour que cette action soit prise
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Type d&#8217;action</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Définie le type d&#8217;action à produire (commande action ou scénario), ici "Scénario"</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Définit le type d&#8217;action à produire (commande action ou scénario), ici "Scénario"</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">1ère minute : nom du scénario</p></td>
@@ -1181,7 +1181,7 @@ Par contre, ne pas mettre de valeur de variable pour que cette action soit prise
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><em>valeur générée</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Après avoir cliqué sur le bouton "Générer", cette zone représente la syntaxe générée en fonction des valeurs définies ci-dessus.<br>
-Il est possible de lancer plusieurs sénario à la 1ère minute ou dernière minute.<br>
+Il est possible de lancer plusieurs sénarios à la 1ère minute ou dernière minute.<br>
 Un bouton RAZ permet de remettre à vide la zone.</p></td>
 </tr>
 </tbody>
@@ -1192,7 +1192,7 @@ Un bouton RAZ permet de remettre à vide la zone.</p></td>
 Le format attendu doit être du type : <code>période (DA ou FA)|act=commande(id ou nom)|option de commande=valeur</code><br>
 <em>exemple : <code>FA|act=[obj][equipment][cmd]|slider=4</code> </em> , pour action à la dernière minute (FA), lancement d&#8217;une commande action "cmd" de l'équipement "equipement", et passage de la valeur 4 (commande de type "slider").<br>
 <br>
-Remarque : les options de commande sont dépendant de la commande utilisée et donc ne sont pas obligatoires.</p>
+Remarque : les options de commande sont dépendants de la commande utilisée et donc ne sont pas obligatoires.</p>
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="../images/iCalendar_screenshot5.jpg" alt="iCalendar_screenshot5"></span></p>
@@ -1211,11 +1211,11 @@ Remarque : les options de commande sont dépendant de la commande utilisée et d
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Type d&#8217;action</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Définie le type d&#8217;action à produire (commande action ou scénario), ici "Action"</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Définit le type d&#8217;action à produire (commande action ou scénario), ici "Action"</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Format de la commande</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Définie si la valeur de l&#8217;ID est positionné ou le format de commande Jeedom (soit [obj][equip][cmd]).<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Définit si la valeur de l&#8217;ID est positionnée ou le format de commande Jeedom (soit [obj][equip][cmd]).<br>
 <strong>Remarque:</strong> avec l&#8217;id, vous n&#8217;est pas dépendant du nom de la commande ou de l'équipement. Toute modification sur ce dernier n&#8217;aura pas d&#8217;impact sur le traitement/l&#8217;action de la commande.</p></td>
 </tr>
 <tr>
@@ -1237,7 +1237,7 @@ Si cette commande utilise des options (slider, titre/message), vous pourrez alor
 <div class="ulist">
 <ul>
 <li>
-<p>Une fois, les informations renseignées, cliquez sur le bouton "Générer".</p>
+<p>Une fois les informations renseignées, cliquez sur le bouton "Générer".</p>
 </li>
 <li>
 <p>La zone grise est complétée, copiez là (ctrl + C).</p>
@@ -1248,7 +1248,7 @@ Si cette commande utilise des options (slider, titre/message), vous pourrez alor
 </ul>
 </div>
 <div class="paragraph">
-<p><strong>REMARQUE:</strong> les anciens formats de trames au niveau du titre sont encore supportés par le plugin, mais seront bientôt supprimé du plugin au profit de cette nouvelle gestion.<br>
+<p><strong>REMARQUE:</strong> les anciens formats de trames au niveau du titre sont encore supportés par le plugin, mais seront bientôt supprimés du plugin au profit de cette nouvelle gestion.<br>
 Pensez à modifier vos configurations pour un traitement avancé du plugin et sa maintenance future.</p>
 </div>
 <hr>
@@ -1363,19 +1363,19 @@ Pensez à modifier vos configurations pour un traitement avancé du plugin et sa
 <p>où heure_début, et heure_fin sont des bornes de l'événement pour la journée courante ;</p>
 </li>
 <li>
-<p>statut : définie l'état de l'événement à l&#8217;instant T; pouvant prendre les valeurs : vide (à venir), DA (1ère minute), A (actif) ,FA (dernière minute), P (passé) ;</p>
+<p>statut : définit l'état de l'événement à l&#8217;instant T; pouvant prendre les valeurs : vide (à venir), DA (1ère minute), A (actif) ,FA (dernière minute), P (passé) ;</p>
 </li>
 <li>
 <p>uid : est l&#8217;idée technique de l'événement (utilisée pour la liaison avec des données techniques en caches) ;</p>
 </li>
 <li>
-<p>doAct/doInter : définie si cet événement présente des commandes actions ou scénarios à éxecuter en début ou fin d'événement ; ou une intéraction en début d'événement.</p>
+<p>doAct/doInter : définit si cet événement présente des commandes actions ou scénarios à éxecuter en début ou fin d'événement ; ou une interaction en début d'événement.</p>
 </li>
 <li>
 <p>date_update : correspond au timestamps update de l'événement ;</p>
 </li>
 <li>
-<p>location : correspond au lieu de l'événement s&#8217;il est définie dans votre agenda.</p>
+<p>location : correspond au lieu de l'événement s&#8217;il est défini dans votre agenda.</p>
 </li>
 </ul>
 </div>
@@ -1391,7 +1391,7 @@ Pensez à modifier vos configurations pour un traitement avancé du plugin et sa
 <div class="ulist">
 <ul>
 <li>
-<p>le plugin sait gérer différents formats d'évènement :</p>
+<p>le plugin sait gérer différents formats d'évènements :</p>
 <div class="ulist">
 <ul>
 <li>
@@ -1416,18 +1416,18 @@ Pensez à modifier vos configurations pour un traitement avancé du plugin et sa
 <div class="sect3">
 <h4 id="__em_annexe_5_donn_es_des_venements_au_niveau_des_sc_narios_via_fonctions_em"><em>Annexe 5 : Données des évenements au niveau des scénarios via "fonctions"</em></h4>
 <div class="paragraph">
-<p>Pour rappel, une commande agenda retourne des données brutes restectant les formats de données décrits au niveau de l&#8217;annexe précédente.<br>
-Toutefois une commande complémentaire est disponible au niveau de chaque "agenda", nommé <code>_nom de la commande agenda_ (ExecuteFunction-_idCommande_)</code><br>
+<p>Pour rappel, une commande agenda retourne des données brutes respectant les formats de données décrits au niveau de l&#8217;annexe précédente.<br>
+Toutefois, une commande complémentaire est disponible au niveau de chaque "agenda", nommé <code>_nom de la commande agenda_ (ExecuteFunction-_idCommande_)</code><br>
 Cette commande disponible au niveau des scénarios est de type "message" et est composé d&#8217;un nom de fonction (titre) et d&#8217;argements (message).<br>
 Après avoir sélectionné cette commande dans une action de scénario, tapez la lettre "g" dans la zone "fonction", les fonctions disponibles apparaitront (avec en mémo, un rappel de l&#8217;utilisation au niveau des arguments).<br>
 <br>
 <strong>L'événement recherché ne peut être que sur la journée courante et doit être en cours ou à venir.</strong> Les événements passés ne peuvent plus être analysés.<br></p>
 </div>
 <div class="paragraph">
-<p><strong>Le titre passé en argument doit être exacte</strong> également (exemple : absence) ; la fonction "contient" n&#8217;est pas encore mise en place.<br>
+<p><strong>Le titre passé en argument doit être exact</strong> également (exemple : absence) ; la fonction "contient" n&#8217;est pas encore mise en place.<br>
 Si plusieurs titres correspondent, le 1er est retourné.<br></p>
 </div>
-<table class="tableblock frame-all grid-all" style="width:95%; ">
+<table class="tableblock frame-all grid-all" style="width:99%; ">
 <colgroup>
 <col style="width:16%;">
 <col style="width:33%;">
@@ -1441,71 +1441,70 @@ Si plusieurs titres correspondent, le 1er est retourné.<br></p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">getTimeStart</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">donne l&#8217;heure de début de l'événement choisit</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">- en 1ère ligne : mettre le titre de l'événenement à rechercher, le texte doit être exacte ;<br>
-soit <span class="yellow-background">title=xxx</span>, exemple : title=Volet RDC<br>
-- en 2nde ligne, il est possible de préciser un format de retour pour la date ; comme dans tout le reste au niveau de jeedom, les possibilités de format sont équivalent à ceux de php.<br>
-soit <span class="yellow-background">date=xxx</span>, exemple : date=H:i:s ou date=d/m H:i<br>
-<strong>Remarque:</strong> Si cette 2nde ligne n&#8217;est pas renseignée, la valeur retournée est au format timestamp.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">donne l&#8217;heure de début de l'événement choisi</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1/ <span class="yellow-background">title=xxx</span> : le titre de l'événenement à rechercher, le texte doit être exact ; <em>exemple : title=Volet RDC</em><br>
+2/ <span class="yellow-background">date=xxx</span> : format de retour pour la date (conforme à la configuration au niveau de jeedom) les possibilités de format sont équivalents à ceux de php). ; <em>exemple : date=H:i:s ou date=d/m H:i</em> ; par défaut, valeur retournée est au format timestamp.<br>
+3/ <span class="yellow-background">jour=xxx</span> : jour à analyser (J1,J2, &#8230;); par défaut, valeur retournée pour J0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">getTimeEnd</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">donne l&#8217;heure de fin de l'événement choisit</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">- en 1ère ligne : mettre le titre de l'événenement à rechercher, le texte doit être exacte ;<br>
-soit <span class="yellow-background">title=xxx</span>, exemple : title=Volet RDC<br>
-- en 2nde ligne, il est possible de préciser un format de retour pour la date ; comme dans tout le reste au niveau de jeedom, les possibilités de format sont équivalent à ceux de php.<br>
-soit <span class="yellow-background">date=xxx</span>, exemple : date=H:i:s ou date=d/m H:i<br>
-<strong>Remarque:</strong> Si cette 2nde ligne n&#8217;est pas renseignée, la valeur retournée est au format timestamp.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">donne l&#8217;heure de fin de l'événement choisi</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1/ <span class="yellow-background">title=xxx</span> : le titre de l'événenement à rechercher, le texte doit être exact ; <em>exemple : title=Volet RDC</em><br>
+2/ <span class="yellow-background">date=xxx</span> : format de retour pour la date (conforme à la configuration au niveau de jeedom) les possibilités de format sont équivalents à ceux de php). ; <em>exemple : date=H:i:s ou date=d/m H:i</em> ; par défaut, valeur retournée est au format timestamp.<br>
+3/ <span class="yellow-background">jour=xxx</span> : jour à analyser (J1,J2, &#8230;); par défaut, valeur retournée pour J0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">getUid</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">donne l&#8217;id technique de l'événement choisit</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">- en 1ère ligne : mettre le titre de l'événenement à rechercher, le texte doit être exacte ;<br>
-soit <span class="yellow-background">title=xxx</span>, exemple : title=Volet RDC</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">donne l&#8217;id technique de l'événement choisi</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1/ <span class="yellow-background">title=xxx</span> : le titre de l'événenement à rechercher, le texte doit être exact ; <em>exemple : title=Volet RDC</em><br>
+2/ <span class="yellow-background">jour=xxx</span> : jour à analyser (J1,J2, &#8230;); par défaut, valeur retournée pour J0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">getTitle</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">donne le titre de l'événement choisit en fonction d&#8217;un id</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">- en 1ère ligne : mettre l&#8217;id (uid) de l'événenement à rechercher, le texte doit être exacte ;<br>
-soit <span class="yellow-background">uid=xxx</span>, exemple : uid=<a href="mailto:23424houi877sdf@google.com">23424houi877sdf@google.com</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">donne le titre de l'événement choisi en fonction d&#8217;un id</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1/ <span class="yellow-background">uid=xxx</span> : l&#8217;id (uid) de l'événenement à rechercher, le texte doit être exact ; <em>exemple : uid=<a href="mailto:23424houi877sdf@google.com">23424houi877sdf@google.com</a></em><br>
+2/ <span class="yellow-background">jour=xxx</span> : jour à analyser (J1,J2, &#8230;); par défaut, valeur retournée pour J0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">getLocation</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">donne le lieu de l'événement choisit en fonction d&#8217;un id ou d&#8217;un titre</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">- en 1ère ligne : mettre le titre de l'événenement à rechercher, le texte doit être exacte ;<br>
-soit <span class="yellow-background">title=xxx</span>, exemple : title=Volet RDC<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">donne le lieu de l'événement choisi en fonction d&#8217;un id ou d&#8217;un titre</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1/ <span class="yellow-background">title=xxx</span> : le titre de l'événenement à rechercher, le texte doit être exact ; <em>exemple : title=Volet RDC</em><br>
+2/ <span class="yellow-background">jour=xxx</span> : jour à analyser (J1,J2, &#8230;); par défaut, valeur retournée pour J0;<br>
 (un id peut aussi être passé en paramètre; exemple: uid=<a href="mailto:23424houi877sdf@google.com">23424houi877sdf@google.com</a>)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">getDaySimple</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">retourne une trame simplifiée de tous les événements de la journée courante (quelque soit le statut de l'événement).<br>
 Le contenu est : l&#8217;heure de début, l&#8217;heure de fin et le titre.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">aucun (zone laissée vide)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1/ <span class="yellow-background">jour=xxx</span> : jour à analyser (J1,J2, &#8230;); par défaut, valeur retournée pour J0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">getDayTitleOnly</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">retourne une trame simplifiée avec tous les événéments de la journée courante (quelque soit le statut de l'événement).<br>
 Le contenu est : uniquement le titre.<br>
 Remarque: cette fonction correspond à la même chose que l&#8217;option "titre uniquement", mais ici valable sur toute la journée.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">aucun (zone laissée vide)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1/ <span class="yellow-background">jour=xxx</span> : jour à analyser (J1,J2, &#8230;); par défaut, valeur retournée pour J0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">getDayActifOnly</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">retourne une trame simplifiée avec uniquement les événéments actif de la journée courante.<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">retourne une trame simplifiée avec uniquement les événéments actifs de la journée courante.<br>
 Le contenu est : l&#8217;heure de début, l&#8217;heure de fin et le titre.<br>
 Remarque: cette fonction correspond à la même chose que l&#8217;option format donnée = "événement courant".</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">aucun (zone laissée vide)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">getDayActifAndTitleOnly</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">retourne une trame simplifiée avec uniquement les événements actif de la journée courante.<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">retourne une trame simplifiée avec uniquement les événements actifs de la journée courante.<br>
 Le contenu est : uniquement le titre.<br>
 Remarque: cette fonction correspond à la même chose que l&#8217;option format donnée = "événement courant" et "titre uniquement".</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">aucun (zone laissée vide)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">aucun (zone laissée vide);</p></td>
 </tr>
 </tbody>
 </table>
 
+<div class="paragraph">
+<p><strong>Remarque:</strong> L&#8217;ordre des arguments n&#8217;a pas d&#8217;importance; par contre, chaque argument doit être disposé sur ligne différente et respecter le format définit.<br></p>
+</div>
 <div class="paragraph">
 <p>Les commandes actions ne retournent pas de valeur, le résultat de la fonction sera donc placée dans une variable de scénario, prenant la forme : <code>nomDeLaFonction_IdCommandeAgenda</code> (exemple: getTimeStart_13456).<br>
 Pour éviter toute erreur, cet id est rappelé dans le nom de la commande fonction.<br>
@@ -1516,9 +1515,9 @@ Dès lors que cette variable passe à une autre valeur, cela signifie que la fon
 Si la fonction n&#8217;a rien trouvé ou a rencontré une erreur, la valeur de retour de non traitement est "-1".<br>
 <br>
 <strong>Remarque pour les fonction "getDay&#8230;":</strong><br>
-1/ pour l&#8217;utilisation de ces fonctions, il est consillé d'être dans un format de donnée différent de "événement courant".
+1/ pour l&#8217;utilisation de ces fonctions, il est conseillé d'être dans un format de données différent de "événement courant".
 En effet, ce format étant déjà très limité, ces fonctions spécifiques de formatage de la trame pourraient ne pas s&#8217;appliquer.<br>
-Si ce cas s&#8217;applique, le retour prendra la valeur "-1" et un message d&#8217;erreur sera précisée dans la log.<br>
+Si ce cas s&#8217;applique, le retour prendra la valeur "-1" et un message d&#8217;erreur sera précisé dans la log.<br>
 2/ le séparateur entre les événements est un double pipe "||".<br>
 Si vous souhaitez utiliser un autre séparateur pour de l&#8217;affichage dans  un mail par exemple, vous pouvez faire un changement de caractère comme suite (ici retour à la ligne) :<br>
 <code>str_replace("||", "\n", variable(getDaySimple_123))</code><br>
@@ -1529,14 +1528,14 @@ Si vous souhaitez utiliser un autre séparateur pour de l&#8217;affichage dans  
 <div class="ulist">
 <ul>
 <li>
-<p>1/ Sélectionner votre commande agenda permettant d&#8217;excuter des fonctions au niveau d&#8217;une zone "action".</p>
+<p>1/ Sélectionner votre commande agenda permettant d&#8217;exécuter des fonctions au niveau d&#8217;une zone "action".</p>
 </li>
 <li>
 <p>2/ Dans la zone "fonction", taper "get" et sélectionner dans la liste la fonction souhaitée (cf. ci-dessus).</p>
 </li>
 <li>
 <p>3/ Ajouter une commande action avec la fonction "wait" ;<br>
-<strong>Remarque:</strong> les temps de réponses des fonctions sont relativement rapide, mais il est préférable d&#8217;avoir une tempo pour s&#8217;assurer que la valeur retournée est bien celle attendue, pour la suite du scénario.<br>
+<strong>Remarque:</strong> les temps de réponses des fonctions sont relativement rapides, mais il est préférable d&#8217;avoir une tempo pour s&#8217;assurer que la valeur retournée est bien celle attendue, pour la suite du scénario.<br>
 La saisie doit être du type : <code>variable(getTimeEnd_12345) != -99</code> , (avec un timeout de 5sec par exemple).<br></p>
 </li>
 <li>
@@ -1554,7 +1553,7 @@ La saisie doit être du type : <code>variable(getTimeEnd_12345) != -99</code> , 
 <div class="sect3">
 <h4 id="__em_annexe_6_les_classes_css_disponibles_em"><em>Annexe 6 : Les classes CSS disponibles</em></h4>
 <div class="paragraph">
-<p>Vous pouvez utiliser 3 paramètres au niveau des options de la tuille de l&#8217;agenda pour gérer les couleurs :</p>
+<p>Vous pouvez utiliser 3 paramètres au niveau des options de la tuile de l&#8217;agenda pour gérer les couleurs :</p>
 </div>
 <table class="tableblock frame-all grid-all" style="width:70%; ">
 <colgroup>
@@ -1574,7 +1573,7 @@ La saisie doit être du type : <code>variable(getTimeEnd_12345) != -99</code> , 
 </table>
 
 <div class="paragraph">
-<p>Mais pour les utiliseurs qui veulent aller plus loin dans la configuration, voici les classes CSS disponibles pour personnaliser le widget du plugin :</p>
+<p>Mais pour les utilisateurs qui veulent aller plus loin dans la configuration, voici les classes CSS disponibles pour personnaliser le widget du plugin :</p>
 </div>
 <table class="tableblock frame-all grid-all" style="width:70%; ">
 <colgroup>
@@ -1628,14 +1627,14 @@ La saisie doit être du type : <code>variable(getTimeEnd_12345) != -99</code> , 
 <h4 id="__em_peut_on_avoir_les_futurs_v_nements_em"><em>Peut-on avoir les futurs évènements ?</em></h4>
 <div class="paragraph">
 <p>Avec les valeurs "événement heure à venir" et "événement sur la journée" du paramètre "format donnée" : oui d&#8217;un point de vue affichage sur le widget.<br>
-Par contre, le traitement de futurs évènements n&#8217;est pas possible (ils ne sont présents qu&#8217;en terme d&#8217;affichage), sauf si vous parcer les informations.</p>
+Par contre, le traitement de futurs évènements n&#8217;est pas possible (ils ne sont présents qu&#8217;en terme d&#8217;affichage), sauf si vous parsez les informations.</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="__em_j_ai_modifi_mon_agenda_et_l_v_nement_n_appara_t_pas_em"><em>J&#8217;ai modifié mon agenda et l'évènement n&#8217;apparaît pas&#8230;</em></h4>
 <div class="paragraph">
 <p>Le rafraîchissement du cache est réalisé en fonction du paramétrage que vous avez configuré (minimum 30 min).<br>
-Toutes modifications sur l&#8217;agenda n&#8217;apparaîtront sur le plugin iCalendar qu&#8217;aux heures fixes liées à la configuration définies (cf. doc).<br>
+Toutes modifications sur l&#8217;agenda n&#8217;apparaîtront sur le plugin iCalendar qu&#8217;aux heures fixes liées à la configuration définie (cf. doc).<br>
 Mais il est possible de forcer cette synchronisation au moment de l&#8217;enregistrement de l&#8217;agenda (équipement).</p>
 </div>
 </div>
@@ -1684,7 +1683,7 @@ Vous devez vérifier si vous n&#8217;avez pas modifié cette commande/scénario 
 <h2 id="_troubleshoting">Troubleshoting</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>====<em>Mes scénarios réagissent à des évènements passées ou futurs (mode prochaine heure ou journée)</em>
+<p>====<em>Mes scénarios réagissent à des évènements passés ou futurs (mode prochaine heure ou journée)</em>
 Dans l&#8217;analyse de la trame, il faut vérifier que vous êtes sur un évènement actif; en vérifiant que <span class="yellow-background">;A;</span> est présent. <em>(exemple : "&#8230;" matches "/;A;mon event/")</em>.
 Voir la documentation pour plus d&#8217;explications.</p>
 </div>
@@ -1711,18 +1710,10 @@ Voir la documentation pour plus d&#8217;explications.</p>
 </div>
 </div>
 </div>
-<div class="sect1">
-<h2 id="_version_documentaire">Version documentaire</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p><em>Mise à jour le : 27 février 2016</em><br></p>
-</div>
-</div>
-</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-06-19 22:28:26 CEST
+Last updated 2017-10-13 14:35:44 CEST
 </div>
 </div>
 </body>

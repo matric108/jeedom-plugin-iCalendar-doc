@@ -508,38 +508,45 @@ Après avoir sélectionné cette commande dans une action de scénario, tapez la
 *Le titre passé en argument doit être exact* également (exemple : absence) ; la fonction "contient" n'est pas encore mise en place. +
 Si plusieurs titres correspondent, le 1er est retourné. +
 
-[cols="1,2,3", width="95%"]
+[cols="1,2,3", width="99%"]
 |=======================
 | fonction | description | arguments
-| getTimeStart | donne l'heure de début de l'événement choisi | - en 1ère ligne : mettre le titre de l'événenement à rechercher, le texte doit être exact ; +
-soit [yellow-background]#title=xxx#, exemple : title=Volet RDC +
-- en 2nde ligne, il est possible de préciser un format de retour pour la date ; comme dans tout le reste au niveau de jeedom, les possibilités de format sont équivalents à ceux de php. +
-soit [yellow-background]#date=xxx#, exemple : date=H:i:s ou date=d/m H:i +
-*Remarque:* Si cette 2nde ligne n'est pas renseignée, la valeur retournée est au format timestamp.
-| getTimeEnd | donne l'heure de fin de l'événement choisi | - en 1ère ligne : mettre le titre de l'événenement à rechercher, le texte doit être exact ; +
-soit [yellow-background]#title=xxx#, exemple : title=Volet RDC +
-- en 2nde ligne, il est possible de préciser un format de retour pour la date ; comme dans tout le reste au niveau de jeedom, les possibilités de format sont équivalents à ceux de php. +
-soit [yellow-background]#date=xxx#, exemple : date=H:i:s ou date=d/m H:i +
-*Remarque:* Si cette 2nde ligne n'est pas renseignée, la valeur retournée est au format timestamp.
-| getUid | donne l'id technique de l'événement choisi | - en 1ère ligne : mettre le titre de l'événenement à rechercher, le texte doit être exact ; +
-soit [yellow-background]#title=xxx#, exemple : title=Volet RDC
-| getTitle | donne le titre de l'événement choisi en fonction d'un id | - en 1ère ligne : mettre l'id (uid) de l'événenement à rechercher, le texte doit être exact ; +
-soit [yellow-background]#uid=xxx#, exemple : uid=23424houi877sdf@google.com
-| getLocation | donne le lieu de l'événement choisi en fonction d'un id ou d'un titre | - en 1ère ligne : mettre le titre de l'événenement à rechercher, le texte doit être exact ; +
-soit [yellow-background]#title=xxx#, exemple : title=Volet RDC +
-(un id peut aussi être passé en paramètre; exemple: uid=23424houi877sdf@google.com)
+| getTimeStart | donne l'heure de début de l'événement choisi | 1/ [yellow-background]#title=xxx# : le titre de l'événenement à rechercher, le texte doit être exact ; _exemple : title=Volet RDC_ +
+2/ [yellow-background]#date=xxx# : format de retour pour la date (conforme à la configuration au niveau de jeedom) les possibilités de format sont équivalents à ceux de php). ; _exemple : date=H:i:s ou date=d/m H:i_ ; par défaut, valeur retournée est au format timestamp. + 
+3/ [yellow-background]#jour=xxx# : jour à analyser (J1,J2, ...); par défaut, valeur retournée pour J0
+
+| getTimeEnd | donne l'heure de fin de l'événement choisi | 1/ [yellow-background]#title=xxx# : le titre de l'événenement à rechercher, le texte doit être exact ; _exemple : title=Volet RDC_ +
+2/ [yellow-background]#date=xxx# : format de retour pour la date (conforme à la configuration au niveau de jeedom) les possibilités de format sont équivalents à ceux de php). ; _exemple : date=H:i:s ou date=d/m H:i_ ; par défaut, valeur retournée est au format timestamp. + 
+3/ [yellow-background]#jour=xxx# : jour à analyser (J1,J2, ...); par défaut, valeur retournée pour J0
+
+| getUid | donne l'id technique de l'événement choisi | 1/ [yellow-background]#title=xxx# : le titre de l'événenement à rechercher, le texte doit être exact ; _exemple : title=Volet RDC_ +
+2/ [yellow-background]#jour=xxx# : jour à analyser (J1,J2, ...); par défaut, valeur retournée pour J0
+
+
+| getTitle | donne le titre de l'événement choisi en fonction d'un id | 1/ [yellow-background]#uid=xxx# : l'id (uid) de l'événenement à rechercher, le texte doit être exact ; _exemple : uid=23424houi877sdf@google.com_ +
+2/ [yellow-background]#jour=xxx# : jour à analyser (J1,J2, ...); par défaut, valeur retournée pour J0
+
+| getLocation | donne le lieu de l'événement choisi en fonction d'un id ou d'un titre | 1/ [yellow-background]#title=xxx# : le titre de l'événenement à rechercher, le texte doit être exact ; _exemple : title=Volet RDC_ +
+2/ [yellow-background]#jour=xxx# : jour à analyser (J1,J2, ...); par défaut, valeur retournée pour J0; +
+(un id peut aussi être passé en paramètre; exemple: uid=23424houi877sdf@google.com) 
+
 | getDaySimple | retourne une trame simplifiée de tous les événements de la journée courante (quelque soit le statut de l'événement). +
-Le contenu est : l'heure de début, l'heure de fin et le titre. | aucun (zone laissée vide)
+Le contenu est : l'heure de début, l'heure de fin et le titre. | 1/ [yellow-background]#jour=xxx# : jour à analyser (J1,J2, ...); par défaut, valeur retournée pour J0
+
 | getDayTitleOnly | retourne une trame simplifiée avec tous les événéments de la journée courante (quelque soit le statut de l'événement). +
 Le contenu est : uniquement le titre. +
-Remarque: cette fonction correspond à la même chose que l'option "titre uniquement", mais ici valable sur toute la journée. | aucun (zone laissée vide)
+Remarque: cette fonction correspond à la même chose que l'option "titre uniquement", mais ici valable sur toute la journée. | 1/ [yellow-background]#jour=xxx# : jour à analyser (J1,J2, ...); par défaut, valeur retournée pour J0
+
 | getDayActifOnly | retourne une trame simplifiée avec uniquement les événéments actifs de la journée courante. +
 Le contenu est : l'heure de début, l'heure de fin et le titre. +
 Remarque: cette fonction correspond à la même chose que l'option format donnée = "événement courant". | aucun (zone laissée vide)
+
 | getDayActifAndTitleOnly | retourne une trame simplifiée avec uniquement les événements actifs de la journée courante. +
 Le contenu est : uniquement le titre. +
-Remarque: cette fonction correspond à la même chose que l'option format donnée = "événement courant" et "titre uniquement". | aucun (zone laissée vide)
+Remarque: cette fonction correspond à la même chose que l'option format donnée = "événement courant" et "titre uniquement". | aucun (zone laissée vide);
 |=======================
+
+*Remarque:* L'ordre des arguments n'a pas d'importance; par contre, chaque argument doit être disposé sur ligne différente et respecter le format définit. +
 
 Les commandes actions ne retournent pas de valeur, le résultat de la fonction sera donc placée dans une variable de scénario, prenant la forme : `nomDeLaFonction_IdCommandeAgenda` (exemple: getTimeStart_13456). +
 Pour éviter toute erreur, cet id est rappelé dans le nom de la commande fonction. +
@@ -645,7 +652,3 @@ Voir la documentation pour plus d'explications.
 - gestion des événements + Todo (modif, création, supression) pour le mode CalDav ; +
 - définir un offset à l'événement sur heure de début ou de fin ; +
 - mise en place de la synchro via un daemon ; +
-
-
-== Version documentaire 
-_Mise à jour le : 19 juin 2017_ +
